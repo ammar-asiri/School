@@ -1,0 +1,13 @@
+print ("welcome to the kafatirya")
+print ("please enter your order details")
+sandwich = 5 
+m = int(input("how many sandwich:"))
+x = sandwich * m
+juices = 3 
+j = int(input("how many juices: "))
+h = juices * j
+water = 1 
+w = int(input("how many water bottles : "))
+f = water * w
+total = x + h + f 
+print(f"====YOUR RECEIPT====:\n sandwiches: {x}\n juices: {h}\n water bottles:{f}\n ____________\n total: {total}")
